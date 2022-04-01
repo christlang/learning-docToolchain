@@ -1,0 +1,16 @@
+
+
+* http://doctoolchain.org/docToolchain/v2.0.x/020_tutorial/010_Install.html
+
+[source,shell script]
+----
+wget doctoolchain.github.io/dtcw
+chmod +x dtcw
+
+# arc42 template
+./dtcw downloadTemplate
+
+# generate HTML
+./dtcw generateHTML
+browser build/html5/arc42/arc42.html
+----
